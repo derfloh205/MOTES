@@ -1,0 +1,33 @@
+{
+  "windowResistance": [
+    {
+      "thermalZoneFourElements.RWin": [
+        0.4,
+        0.3,
+        0.2,
+        0.1,
+        0.0
+      ]
+    }
+  ],
+  "temperaturSetPoints": [
+    {
+      "HeatSetPoint.k": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "CoolSetPoint.k": [
+        28,
+        27,
+        26,
+        25,
+        24,
+        23
+      ]
+    }
+  ]
+}
