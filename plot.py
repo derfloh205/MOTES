@@ -53,17 +53,19 @@ def main():
                 print(str(currentSubCase + 1) + "/" + str(subCaseAmount))
 
                 matFile = caseName + "_"
+                plotLabel = data[1]
                 variables = []
                 for (varName, valueList) in data[0].iteritems():
                     value = valueList[currentSubCase]
                     matFile += varName + "_" + str(value)
+                    plotLabel += "_" + str(value)
                     variables.append(varName)
 
                 fileReader = Reader(os.path.join("output_" + caseName, matFile.replace(".","_") + ".mat"), "dymola")
                 (t, y) = fileReader.values("totalPowerLoad")
                 # seconds to days
                 t = [x / 86400 for x in t]
-                plt.plot(t, y, label=matFile)
+                plt.plot(t, y, label=plotLabel)
             plt.xlabel("Time [d]")
             plt.ylabel("MWh")
             plt.legend()
