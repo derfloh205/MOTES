@@ -2,10 +2,9 @@
   "exteriorResistance": [
     {
       "thermalZoneFourElements.RExt": [
+        [0.1],
+        [0.01],
         [0.0033142],
-        [0.00165],
-        [0.0008],
-        [0.0004],
         [0]
       ]
     },
@@ -14,10 +13,9 @@
   "floorResistance": [
     {
       "thermalZoneFourElements.RFloor": [
+        [0.1],
+        [0.01],
         [0.0033142],
-        [0.00165],
-        [0.0008],
-        [0.0004],
         [0]
       ]
     },
@@ -26,10 +24,9 @@
   "roofResistance": [
     {
       "thermalZoneFourElements.RRoof": [
+        [0.1],
+        [0.01],
         [0.0033142],
-        [0.00165],
-        [0.0008],
-        [0.0004],
         [0]
       ]
     },

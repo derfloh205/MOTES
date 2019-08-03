@@ -1,4 +1,4 @@
-... loading "tab1" from "C:/users/florian/appdata/local/temp/tmp-simulator-Florian-rkuiqs/IDEAS 2.1.0/Resources/weatherdata/USA_CA_San.Francisco.Intl.AP.724940_TMY3.mos"
+... loading "tab1" from "C:/users/florian/appdata/local/temp/tmp-simulator-Florian-agazt5/IDEAS 2.1.0/Resources/weatherdata/USA_CA_San.Francisco.Intl.AP.724940_TMY3.mos"
 Model: MyFourElements
 Integration started at 0 using integration method:
 RK-method: radau IIa
@@ -7,7 +7,7 @@ FSAL
 Continuous extension
 
 Integration terminated successfully at T = 3.1536e+07
-   CPU time for integration                  : 6.876 seconds
+   CPU time for integration                  : 5.98 seconds
    CPU time for initialization               : 0.083 seconds
    Number of result points                   : 1228
    Number of grid points                     : 499

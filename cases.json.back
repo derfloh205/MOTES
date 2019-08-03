@@ -1,16 +1,4 @@
 {
-  "exteriorResistance": [
-    {
-      "thermalZoneFourElements.RExt": [
-        [0.0033142],
-        [0.00165],
-        [0.0008],
-        [0.0004],
-        [0],
-      ]
-    },
-    "RExt"
-  ],
   "windowResistance": [
     {
       "thermalZoneFourElements.RWin": [
